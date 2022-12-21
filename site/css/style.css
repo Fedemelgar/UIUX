@@ -12,43 +12,83 @@ h1{
 	left: 322px;
 	top: 50px;
 	font-size: 40px;
-	border: 10px solid black;
+
+}
+h2{
+	position: absolute;
+	font-size: 29px;
+	text-align: left;
+	padding: 25px 40px 25px 25px;
 }
 h3{
 	position: absolute;
 	margin-top: 21px;
 }
 h4 {
-	border: 10px solid black;
 	padding: 30px;
 	float: left;
-	margin: 30px;
+	margin: 48px;
 }
 p {
+	padding: 25px 40px 25px 25px;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+li{
+
+	padding: 33px;
+	float: left;
+	margin: 6px;
+	width: 198px;
+	background-color: #588157;
+	margin-top: 9px;
+}
+div.grade{
 	font-size: 40px;
 	float: right;
 	margin-top: 30px;
 }
-li{
-	border: 3px solid black;
-	padding: 33px;
-	float: left;
-	margin: 3px;
-	width: 198px;
-	background-color: #588157;
-
-
-}
 div.progress{
 	position: absolute;
  	float: right;
- 	border: 10px solid black;
  	width: 541px;
 	height: 100px;
 	left: 836px;
 	top: 52px;
 }
+div.progress2{
+	position: relative;
+ 	float: right;
+ 	width: 541px;
+	height: 100px;
+	padding: 25px 50px 10px 50px;
+}
+div.progress3{
+	position: relative;
+ 	float: right;
+ 	width: 541px;
+	height: 100px;
+	padding: 0px 50px 25px 50px;
 
+}
+ 
+}
+div.design{
+	border: solid black;
+	width: 1047px;
+	height: 80px;
+	left: 324px;
+	top: 682px;
+	padding: 25px 0px 20px 0px;
+
+}
+div.visual{
+
+	width: 1047px;
+	height: 80px;
+	left: 324px;
+	padding: 25px 0px 30px 0px;
+}
 div.gray {
 	background-color: gray;
 	border: 3px solid black;
@@ -65,7 +105,6 @@ div.green {
 }
 div.trainers {
 	position: absolute;
-	border: 10px solid black;
 	font-size: 22px;
 	left: 322px;
 	float: right;
@@ -73,13 +112,57 @@ div.trainers {
 	height: 56px;
 	left: 324px;
 	top: 247px;
+	background-color: #A3B18A;
 }
 div.menu{
-	position: relative;
+	position: absolute;
 	background-color: #3A5A40;
 	width: 275px;
 	height: 900px;
+
 }
+div.table{
+	position: absolute;
+	float: left;
+	clear: left;
+	width: 1047px;
+	height: 273px;
+	left: 324px;
+	top: 360px;
+	background-color: rgba(217, 217, 217, 0.6);
+
+}
+div.title{
+	background-color: #D9D9D9;
+	width: 1047px;
+	height: 80px;
+	left: 324px;
+	top: 360px;
+	box-sizing: border-box;
+
+}
+div.title2{
+	position: relative;
+	background-color: #D9D9D9;
+	width: 1047px;
+	height: 80px;
+	left: 324px;
+	top: 360px;
+	box-sizing: border-box;
+
+}
+div.content2{
+	position: relative;
+	float: left;
+	clear: left;
+	width: 1047px;
+	height: 273px;
+	left: 324px;
+	top: 360px;
+	background-color: rgba(217, 217, 217, 0.6);
+
+}
+
 #profile {
 	position: relative;
 	background-color: #588157;
@@ -94,7 +177,7 @@ div.menu{
 	top: 50px;
 	left: 75px;
 	float:left;
-	background-color: #A3B18A;
+
 }
 #profile1{
 	position: relative;
@@ -102,4 +185,5 @@ div.menu{
 	margin: 6px;
 
 }
+
 
