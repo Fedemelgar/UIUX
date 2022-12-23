@@ -254,13 +254,13 @@ height: 100%;
   background-color: lightblue;
 }
 
-#comment-input{
+section.comment-input{
 	position: absolute;
 	width: 30%;
 	height: 100%;
 	border:solid black;
 }
-#comments{
+section.comments{
 		position: relative;
 		float: right;
 		clear: left;
@@ -271,10 +271,10 @@ height: 100%;
 
 }
 
-#comments p:nth-child(even) {
+section.comments p:nth-child(even) {
 background: red;
 }
-#comments p:nth-child(odd) {
+section.comments p:nth-child(odd) {
 background: blue;
 }
 
