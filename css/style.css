@@ -56,6 +56,8 @@ nav.profilemenu{
 	height: 1200px;
 	border:solid black;
 }
+
+
 section.labels{
 	width: 236px;
 height: 40px;
@@ -246,6 +248,28 @@ section.trainers h3{
 
 }
 
+#contentbox{
+	
+height: 100%;
+  background-color: lightblue;
+}
+
+#comment-input{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	border:solid black;
+}
+#comments{
+		position: relative;
+		float: right;
+		clear: left;
+		clear: right;
+    	width: 50%;
+    	height: 100%;
+	border:solid black;
+
+}
 
 
 
