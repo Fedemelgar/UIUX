@@ -53,7 +53,7 @@ nav.profilemenu{
 	position: absolute;
 	background-color: #3A5A40;
 	width: 275px;
-	height: 1200px;
+	height: 100%;
 	border:solid black;
 }
 
@@ -251,34 +251,47 @@ section.trainers h3{
 #contentbox{
 	
 height: 100%;
-  background-color: lightblue;
 }
 
 section.comment-input{
 	position: absolute;
-	width: 30%;
-	height: 100%;
-	border:solid black;
+	width: 50%;
+	height: 80%;
+	text-align: center;
+	padding: 110px 0px 0px 30px;
 }
 section.comments{
+		padding: 110px 200px 0px 0px;
+
 		position: relative;
 		float: right;
 		clear: left;
 		clear: right;
     	width: 50%;
     	height: 100%;
-	border:solid black;
+
 
 }
 
 section.comments p:nth-child(even) {
-background: red;
+background: gray;
 }
 section.comments p:nth-child(odd) {
-background: blue;
+background: lightgray;
 }
-
-
+section.comment-input input{
+ 	width: 70%;
+}
+#table1{
+		position: absolute;
+	float: left;
+	clear: left;
+	width: 1047px;
+	height: 100%;
+	left: 324px;
+	top: 360px;
+	background-color: rgba(217, 217, 217, 0.6);
+}
 
 
 
